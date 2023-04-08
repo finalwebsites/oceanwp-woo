@@ -1,0 +1,121 @@
+/*
+Theme Name: OceanWP Child for WooCommerce
+Theme URI: https://oceanwp.org/
+Description: OceanWP WordPress child theme for WooCommerce shops.
+Author: Olaf Lederer
+Author URI: https://www.olaflederer.com/
+Template: oceanwp
+Version: 1.0
+*/
+
+/* Parent stylesheet should be loaded from functions.php not using @import */
+.links-wit a { color:#fff; }
+.text-center { text-align:center; }
+.amount {
+    color: #204D7C;
+}
+.cart_totals .shop_table td { text-align:right; }
+.woocommerce table.shop_table tfoot tr.order-total td span.woocommerce-Price-amount.amount, .woocommerce-cart .cart-collaterals .cart_totals .order-total td span.woocommerce-Price-amount.amount {
+    font-size: 16px;
+}
+.woocommerce table.shop_table tfoot th, .woocommerce .cart-collaterals h2 { font-size: 16px; }
+.woocommerce #order_review table.shop_table thead th {
+    font-size: 16px;
+}
+input[type=button], input[type=reset], input[type=submit], button[type=submit], .button { font-size:15px; }
+.woocommerce-message { font-size:16px; }
+
+.woocommerce ul.products li.product .button {
+	background-color: #204d7c;
+	font-size:15px;
+	display: inline-block;
+    font-family: inherit;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0;
+    padding: 14px 20px;
+    border: 0;
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: .1em;
+    line-height: 1;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+}
+.woocommerce .woocommerce-checkout h3#order_review_heading, .woocommerce .woocommerce-checkout #customer_details h3 {
+    font-size: 14px;
+    border-color: #bbb;
+}
+.woocommerce-order-pay #order_review { float:none; margin:auto; }
+.woocommerce ul.products li.product .button:hover {
+	background-color: #53a2ea;
+	color: #fff !important;
+}
+.woocommerce ul.products li.product li.title h2, .woocommerce ul.products li.product li.title a {
+    font-size: 18px;
+}
+.elementor-products-grid ul.products.elementor-grid li.product {
+    border: 1px solid #eaeaea;
+    padding: 0 0 20px !important;
+}
+.woocommerce-order .leftcel, .woocommerce-order .rightcel {
+	border: 1px solid #eaeaea;
+    padding: 20px;
+    margin: 0 0 20px;
+}
+.leftcel ul.order_details li {
+    padding: 0 0 0.5em;
+
+}
+.woocommerce ul.order_details {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+.woocommerce-info {
+    font-weight: 400;
+    border: 1px solid #ddd;
+    font-size:16px;
+	text-transform:none;
+}
+.woocommerce-info:before {
+    color: #ddd;
+}
+ul.woocommerce-error {
+    font-size: 16px;
+}
+.leftcel .woocommerce-info {
+	border:0;
+	padding:0;
+	margin:0;
+}
+.leftcel .woocommerce-info:before {
+	content:'';
+}
+.woocommerce-order .woocommerce-notice { text-align:center;line-height:2em;font-size:18px; }
+
+.single-post.content-max-width #main #content-wrap {
+    padding-top: 0;
+}
+.subtitle {
+    font-size: 20px;
+    text-align: center;
+    margin: 0 0 30px;
+}
+.single .entry-title {
+    padding: 0 0 10px;
+    margin: 0;
+    border-bottom: none;
+}
+.single-post ul.meta {
+    border-top: 1px solid #f1f1f1;
+}
+.single-post.content-max-width ul.meta {
+    padding-top:15px;
+}
+.single-post.content-max-width .entry-content .oew-cta h3.oew-cta-title { margin:0 auto 1em; }
+.oew-cta-btn a.button { text-decoration:none !important; }
